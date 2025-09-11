@@ -1,0 +1,27 @@
+#include <LPC214x.h>  // Header for LPC2148
+
+#define LED     (1 << 10)   // P0.10
+#define SWITCH  (1 << 14)   // P0.14
+
+void delay_ms(unsigned int ms) {
+    unsigned int i, j;
+    for (i = 0; i < ms; i++)
+        for (j = 0; j < 6000; j++);  // Approx delay for 1 ms at 12MHz
+}
+
+int main(void) {
+    // Set P0.10 as output (LED), P0.14 as input (Switch)
+    IO0DIR |= LED;      // P0.10 as output
+    IO0DIR &= ~SWITCH;  // P0.14 as input
+
+    while (1) {
+        if (!(IO0PIN & SWITCH)) {  // If switch is pressed (active low)
+            IO0SET = LED;          // Turn ON LED
+            delay_ms(500);
+            IO0CLR = LED;          // Turn OFF LED
+            delay_ms(500);
+        } else {
+            IO0CLR = LED;  // Ensure LED is off when switch not pressed
+        }
+    }
+}
