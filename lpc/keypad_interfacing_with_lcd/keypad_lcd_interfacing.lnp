@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\keypad_lcd_interfacing.o"
+--strict --scatter ".\keypad_lcd_interfacing.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\keypad_lcd_interfacing.map" -o .\keypad_lcd_interfacing.axf
