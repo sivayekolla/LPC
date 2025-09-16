@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\spi_protocol.o"
+--strict --scatter ".\spi_protocol.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\spi_protocol.map" -o .\spi_protocol.axf
