@@ -1,0 +1,15 @@
+.\007_binary_semaphore.o: 007_binary_semaphore.c
+.\007_binary_semaphore.o: C:\Keil\ARM\Inc\Philips\LPC214x.h
+.\007_binary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h
+.\007_binary_semaphore.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\007_binary_semaphore.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\007_binary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h
+.\007_binary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h
+.\007_binary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h
+.\007_binary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h
+.\007_binary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+.\007_binary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h
+.\007_binary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h
+.\007_binary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h
+.\007_binary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\semphr.h
+.\007_binary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\queue.h
